@@ -1,0 +1,15 @@
+{
+  "name": "ts-backend-production-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "author": "saiful",
+  "license": "ISC",
+  "description": ""
+}
