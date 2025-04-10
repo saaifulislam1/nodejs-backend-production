@@ -6,8 +6,7 @@
     "dist":"npx tsc", 
     "dev":"nodemon src/index.ts", 
     "start": "node dist/index.js",
-    "prepare": "husky",
-    "test": "node test.js"
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
