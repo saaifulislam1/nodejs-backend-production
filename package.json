@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "dist":"npx tsc", 
-    "dev":"nodemon src/server.ts", 
+    "dist": "npx tsc",
+    "dev": "nodemon src/server.ts",
     "start": "node dist/server.js",
     "prepare": "husky"
   },
@@ -21,5 +21,11 @@
     "lint-staged": "^15.5.0",
     "nodemon": "^3.1.9",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "D": "^1.0.0"
   }
 }
