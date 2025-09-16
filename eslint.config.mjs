@@ -13,7 +13,6 @@ export default tseslint.config({
     files: ['**/*.ts'],
     extends: [eslint.configs.recommended, ...tseslint.configs.recommendedTypeChecked],
     rules: {
-        'no-console': 'error',
         quotes: ['error', 'single', { allowTemplateLiterals: true }],
         'no-unused-vars': 'warn',
         '@typescript-eslint/no-unused-vars': 'warn', // or "off"
